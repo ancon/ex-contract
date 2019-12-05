@@ -14,6 +14,7 @@
 
 ## What is the function of this repository?
 
+- 这个框架的组件是比较老的，所以，之后会逐渐升级。比如eureka、zuul这些组件应该弃用。
 - 该项目使用springcloud微服务器框架搭建的一个期货交易系统。
 - eureka模块只是单纯的eureka-server而已，没有其他组件。
 - zuul网关模块，zuul默认集成了hystrix和ribbon。所以，只要配置得当即可。springboot号称约定大于配置。
