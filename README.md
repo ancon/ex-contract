@@ -20,6 +20,7 @@
 - zuul网关模块，zuul默认集成了hystrix和ribbon。所以，只要配置得当即可。springboot号称约定大于配置。
 - datacenter是基础模块，数据中心。
 - valid和match所使用的springcloud的组件是一样的，feign和hystrix，其实feign默认集成了ribbon，而hystrix也默认集成ribbon。
+- monitor模块，
 
 
 ## About before

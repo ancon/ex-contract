@@ -3,15 +3,14 @@ package com.meizan.ancon;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 
 @SpringBootApplication
-@EnableZuulProxy
 @EnableEurekaClient
-public class ZuulApp {
-
+@EnableHystrixDashboard
+public class MonitorApp {
     public static void main(String[] args) {
-        SpringApplication.run(ZuulApp.class, args);
+        SpringApplication.run(MonitorApp.class, args);
     }
-}
 
+}
