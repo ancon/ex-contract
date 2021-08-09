@@ -12,7 +12,7 @@
     <artifactId>datacenter</artifactId>
 
     <properties>
-        <elasticsearch.version>5.5.3</elasticsearch.version>
+        <elasticsearch.version>6.8.17</elasticsearch.version>
         <fastjson.version>1.2.31</fastjson.version>
     </properties>
 
